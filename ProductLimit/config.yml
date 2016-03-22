@@ -1,0 +1,8 @@
+name: 商品制限
+code: ProductLimit
+version: 1.0.0
+event: ProductLimitEvent
+service:
+  - ProductLimitServiceProvider
+orm.path:
+  - /Resource/doctrine
